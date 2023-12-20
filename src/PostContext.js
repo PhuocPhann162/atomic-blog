@@ -34,6 +34,8 @@ function PostProvider({ children }) {
     setPosts([]);
   }
   return (
+    // 2) PROVIDE VALUE TO CHILD COMPONENTS
+
     <PostContext.Provider
       value={{
         posts: searchedPosts,

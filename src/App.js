@@ -21,8 +21,6 @@ function App() {
   );
 
   return (
-    // 2) PROVIDE VALUE TO CHILD COMPONENTS
-
     <section>
       <button
         onClick={() => setIsFakeDark((isFakeDark) => !isFakeDark)}
